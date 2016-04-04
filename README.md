@@ -1,5 +1,7 @@
 # Usefull linux commands
 
+# Usefull linux commands
+
 Here you will find collection of most and frequently used commands on linux. Those will be help full for them who are new with linux operating system.  I belive this snippet can save huge time for those who are in need of creating development environment in linux for web development.  
 
 ##Broadband and wifi setup
@@ -62,12 +64,13 @@ Here you will find collection of most and frequently used commands on linux. Tho
 ###To set private domain name instead of localhost
 	sudo gedit /etc/hosts
 	127.0.0.1 	localhost
-	127.0.0.1 	newname.tld // Copy above line and edit it as you want
+	127.0.0.1 	newname.com 
+	127.0.0.1 	newname.com // Copy this line and edit it as you want (!)
 
 ##www and WordPress directory and files permision setup
 
 	sudo chown www-data:www-data /var/www -R // to change user and group ownership
-	sudo chmod 755 /var/www -R // To change user permission where r=7 w=7 e=5
+	sudo chmod 775 /var/www -R // To change user permission where r=7 w=7 e=5
 	sudo find /var/www . -type d -exec chmod 755 {} + // Directory specific permission change
 	sudo find /var/www . -type f -exec chmod 644 {} + // File specific permission change
 	sudo adduser username www-data // adds your username to www-data group
@@ -101,6 +104,10 @@ Skype indicator to work properly:
 ##To install dropbox
 	cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 	~/.dropbox-dist/dropboxd
+
+##Installing ibus-avro on Ubuntu 14.04
+
+http://linux.omicronlab.com/ubuntu_14.04.html
 
 ##Others
 	sudo apt-get install synaptic vlc 
@@ -157,4 +164,4 @@ Skype indicator to work properly:
 	sudo sh -e ~/Downloads/crouton -t cinnamon -r raring
 
 
-## Good Luck!
+## JazakallahKhair
