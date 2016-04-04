@@ -1,7 +1,5 @@
 # Usefull linux commands
 
-# Usefull linux commands
-
 Here you will find collection of most and frequently used commands on linux. Those will be help full for them who are new with linux operating system.  I belive this snippet can save huge time for those who are in need of creating development environment in linux for web development.  
 
 ##Broadband and wifi setup
