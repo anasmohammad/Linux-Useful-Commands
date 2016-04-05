@@ -2,10 +2,10 @@
 
 Here you will find collection of most and frequently used commands on linux. Those will be help full for them who are new with linux operating system.  I belive this snippet can save huge time for those who are in need of creating development environment in linux for web development.  
 
-##Broadband and wifi setup
+## Broadband and wifi setup
 	sudo pppoeconf 
 
-###To enable wifi sharing:
+### To enable wifi sharing:
 	Create a WiFi connection first
 	* Connection name will be "wifi-hotspot" (or anything)
 	* Set one SSID, in my case it is "webitbuzz"
@@ -62,8 +62,13 @@ Here you will find collection of most and frequently used commands on linux. Tho
 ###To set private domain name instead of localhost
 	sudo gedit /etc/hosts
 	127.0.0.1 	localhost
-	127.0.0.1 	newname.com 
-	127.0.0.1 	newname.com // Copy this line and edit it as you want (!)
+	127.0.0.1 	newname.com // Copy this line and paste it below and edit the name (example: wphost ) it as you want (!)
+	
+## open termial in any folder
+
+	sudo apt-get install nautilus-open-terminal
+	
+	nautilus -q
 
 ##www and WordPress directory and files permision setup
 
